@@ -1,0 +1,14 @@
+.home {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 120px; 
+}
+
+
+.titulo {
+    text-align: center;
+    color: #7fffd4;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}

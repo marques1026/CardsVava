@@ -1,0 +1,13 @@
+.contador-btn {
+    display: block;
+    margin: 0 auto 40px;
+    padding: 14px 40px;
+    background: linear-gradient(135deg, #00ffe1, #9d00ff);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.6);
+}
