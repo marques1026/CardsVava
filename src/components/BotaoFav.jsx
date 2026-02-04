@@ -4,7 +4,12 @@ export default function BotaoFav({ ativo, onClick }) {
             className={`botao-favoritar ${ativo ? "ativo" : ""}`}
             onClick={onClick}
         >
-            {ativo ? "FAVORITADO" : "FAVORITAR"}
+            <span className="icone">
+                {ativo ? "★" : "☆"}
+            </span>
+            <span className="texto">
+                {ativo ? "FAVORITO" : "FAVORITAR"}
+            </span>
         </button>
     );
 }

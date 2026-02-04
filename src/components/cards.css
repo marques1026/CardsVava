@@ -17,3 +17,51 @@
     object-fit: cover;
 }
 
+.card-valorant {
+    position: relative;
+    width: 180px;
+    height: 300px;
+    border-radius: 6px;
+    background: rgba(19, 12, 12, 0.6);
+    overflow: hidden;
+}
+
+/* BOTÃO FAVORITAR */
+.botao-favoritar {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 6px 14px;
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid #ff4655;
+    border-radius: 4px;
+
+    color: #ff4655;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.botao-favoritar:hover {
+    background: #ff4655;
+    color: #0f1923;
+}
+
+.botao-favoritar.ativo {
+    background: #ff4655;
+    color: #0f1923;
+    box-shadow: 0 0 12px rgba(255, 70, 85, 0.8);
+}
+
+.botao-favoritar .icone {
+    font-size: 14px;
+}
